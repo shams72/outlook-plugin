@@ -1,5 +1,5 @@
 const HF_API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn";
-
+const API_KEY = "123456789"
 export async function summarizeText(text) {
   const response = await fetch(HF_API_URL, {
     method: "POST",
